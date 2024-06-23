@@ -116,7 +116,9 @@ app.use(express.json());
 
 mongoose
   .connect(
-    "mongodb+srv://21pa1a0531:JU5kGfUf5niBZreG@eventscluster.aoyo1zs.mongodb.net/Rentify"
+    // "mongodb+srv://21pa1a0531:JU5kGfUf5niBZreG@eventscluster.aoyo1zs.mongodb.net/Rentify"
+    // "mongodb+srv://21pa1a0531:JU5kGfUf5niBZreG@eventscluster.aoyo1zs.mongodb.net/Rentify"
+    "mongodb+srv://21pa1a0531:Z022Q5gVKsl0THI8@cluster.amzxnnx.mongodb.net/Rentify"
   )
   .then(() => console.log(`${mongoose.connection.name}`))
   .catch((err) => console.log(err));
